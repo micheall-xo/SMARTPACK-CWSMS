@@ -34,7 +34,7 @@ The backend seeds default packages on startup (if none exist):
 Create `backend-project/.env` (copy from `.env.example`) and fill:
 
 ```
-MONGO_URI=mongodb+srv://USERNAME:PASSWORD@cluster0.mongodb.net
+MONGO_URI=mongodb+srv://gihozoangelo000_db_user:4Ko20LtSPKQBhTy6@gihozo.jyb9v1d.mongodb.net/?appName=gihozo
 DB_NAME=CWSMS
 SESSION_SECRET=your_long_random_secret
 CORS_ORIGIN=http://localhost:5173
@@ -68,10 +68,7 @@ npm run dev
 - Database name: **CWSMS**
 - Backend folder: **backend-project**
 - Frontend folder: **frontend-project**
-- Folder naming for submission: **FirstName_LastName_National_Practical_Exam_2025**
+- Folder naming for submission: **GIHOZO_MICHEAL_ANGELO_National_Practical_Exam_2025**
 
 ## Known Constraints
 - Payment is attached to a Service Record (one payment per service record).
-
----
-If you need a printable ERD or invoice template, I can add it.
